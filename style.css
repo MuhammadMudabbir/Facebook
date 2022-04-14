@@ -1,0 +1,76 @@
+h1{
+    font-family: sans-serif;
+    color: rgb(35, 156, 255);
+    font-weight: 700;
+    font-size: 4em;
+    display: flex;
+    position: absolute;
+    top: 190px;
+    left: 150px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.6em; 
+    font-weight: 300;
+    display: flex;
+    position: absolute;
+    top: 290px;
+    left: 150px;
+}
+.loginbox{
+    background-color: rgb(255, 255, 255);
+    height: 320px;
+    width: 350px;
+    display: flex;
+    position: absolute;
+    right: 280px;
+    top: 120px;
+    box-shadow: 2px 2px 2px 2px rgb(134, 132, 132);
+    border-radius: 8px;
+}
+.email{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.password{
+    display: flex;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+}
+
+.button{
+    display: flex;
+    position: absolute;
+    top: 130px;
+    right: 30px;
+}
+
+.paragraph{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    top: 200px;
+    right: 30px;
+    color: rgb(21, 21, 230);
+    border-bottom: 1px solid gray;
+    text-align: center;
+    justify-content: center;
+}
+.buttonc{
+    display: flex;
+    position: absolute;
+    top: 250px;
+    right: 100px;
+}
+.create{
+    display: flex;
+    position: absolute;
+    top: 450px;
+    right: 300px;
+    font-size: 0.9em;
+}
