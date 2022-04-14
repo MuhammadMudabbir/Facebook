@@ -1,0 +1,1017 @@
+/* navigation bar*/
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.searchinput{
+    height: 30px;
+    width: 270px;
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+}
+/* all icons */
+.facebook{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.search{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    position: absolute;
+    top: 23px;
+    left: 300px;
+}
+.home{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 18px;
+    left: 400px;
+}
+.videos{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 18px;
+    left: 520px;
+}
+.marketplace{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 18px;
+    left: 650px;
+} 
+.groups{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 18px;
+    left: 780px;
+}
+.event{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 18px;
+    left: 910px;
+}
+.profile{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 25px;
+    left: 1015px;
+}
+.name{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 1050px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+.menu{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    position: absolute;
+    top: 25px;
+    left: 1170px;
+}
+.messenger{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    position: absolute;
+    top: 25px;
+    left: 1220px;
+}
+.notifications{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    position: absolute;
+    top: 25px;
+    left: 1270px;
+}
+.account{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    position: absolute;
+    top: 25px;
+    left: 1320px;
+}
+/*left column*/
+.leftcontainer{
+    width: 25%;
+    height: 100%; 
+    padding: 10px;
+    margin: 10px;
+}
+/*images and icons */
+.profilepic{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 90px;
+}
+.friends{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 150px;
+}
+.watch{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 210px;
+}
+.group{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 270px;
+}
+.marketplaces{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 330px;
+}
+.memories{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 390px;
+}
+.saved{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 450px;
+}
+.pages{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 510px;
+}
+.events{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 570px;
+}
+.seemore{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 630px;
+}
+.game {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 750px;
+}
+.games{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 810px;
+}
+/* end of icons */
+
+/* text */
+.names{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 70px;
+}
+.friendst{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 140px;
+    left: 70px;
+}
+.watcht{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+} 
+.groupt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 260px;
+    left: 70px;
+} 
+.marketplacest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 320px;
+    left: 70px;
+}
+.memoriest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 380px;
+    left: 70px;
+}
+.savedt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 440px;
+    left: 70px;
+} 
+.pagest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 500px;
+    left: 70px;
+} 
+.eventst{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 560px;
+    left: 70px;
+}
+.seemoret{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 620px;
+    left: 70px;
+}
+.shortcuts{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bolder;
+    display: flex;
+    position: absolute;
+    top: 670px;
+    left: 30px;
+}
+.gamet{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 740px;
+    left: 70px;
+}
+.gamest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 800px;
+    left: 70px;
+}
+/* left text end */
+
+/* right column */
+.rightcontainer{
+    height: 130%;
+    width: 25%;
+    background-color: rgb(248, 242, 242);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+}
+.top{
+    height: 100px;
+    width: 280px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    border-radius: 10px;
+}
+.birthdayst{
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+/* icons and images */
+.gifticon{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+
+}
+.closeicon{
+    height: 15px;
+    width: 15px;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.contbirt{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+.contbirt2{
+    font-family: sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+.contacts{
+    font-family: sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: gray;
+    display: flex;
+    position: absolute;
+    top: 120px;
+    left: -2px;
+}
+.videoicon{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    position: absolute;
+    top: 117px;
+    right: 80px;
+}
+.searchicon{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    position: absolute;
+    top: 117px;
+    right: 40px;
+}
+.optionicon{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    position: absolute;
+    top: 117px;
+    right: 5px;
+}
+.one{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+.two{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+.three{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+}
+.four{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+.five{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    top: 350px;
+    left: 0px;
+}
+.six{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 0px;
+}
+.seven{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    top: 450px;
+    left: 0px;
+}
+.eight{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.nine{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    top: 550px;
+    left: 0px;
+}
+.ten{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    top: 600px;
+    left: 0px;
+}
+.eleven{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    top: 650px;
+    left: 0px;
+}
+.twelve{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: absolute;
+    top: 700px;
+    left: 0px;
+}
+/* text */
+.textone{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 160px;
+    left: 55px;
+}
+.texttwo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 210px;
+    left: 55px;
+}
+.textthree{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 260px;
+    left: 55px;
+}
+.textfour{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 310px;
+    left: 55px;
+}
+.textfive{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 360px;
+    left: 55px;
+}
+.textsix{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 410px;
+    left: 55px;
+}
+.textseven{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 460px;
+    left: 55px;
+}
+.texteight{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 510px;
+    left: 55px;
+}
+.textnine{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 560px;
+    left: 55px;
+}
+.textten{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 610px;
+    left: 55px;
+}
+.texteleven{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 660px;
+    left: 55px;
+}
+.texttwelve{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 710px;
+    left: 55px;
+}
+/* mid column */
+.midcontainer{
+    height: 150%;
+    width: 52%;
+    background-color: brown;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    position: absolute;
+    left: 260px;
+    top: 80px;
+}
+/* stories panel */
+.createstory{
+    height: 180px;
+    width: 130px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    border-radius: 10px;
+}
+.box{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 140px;
+    left: 40px;
+}
+.profileimg{
+    height: 130px;
+    width: 120px;
+    display: flex;
+    position: absolute;
+    top: -140px;
+    left: -35px;
+}
+.firststory{
+    height: 180px;
+    width: 130px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 155px;
+}
+.secondstory{
+    height: 180px;
+    width: 130px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 295px;
+}
+.thirdstory{
+    height: 180px;
+    width: 130px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 435px;
+}
+.fourthstory{
+    height: 180px;
+    width: 130px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 575px;
+}
+.storyname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    color: white;
+}
+.storynametwo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 320px;
+    color: white;
+}
+.storynamethree{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 440px;
+    color: white;
+}
+.storynamefour{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 580px;
+    color: white;
+}
+.firstimg{
+    height: 180px;
+    width: 130px;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 155px;
+    border-radius: 10px;
+}
+.secondimg{
+    height: 180px;
+    width: 130px;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 295px;
+    border-radius: 10px;
+}
+.thirdimg{
+    height: 180px;
+    width: 130px;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 435px;
+    border-radius: 10px;
+}
+.fourthimg{
+    height: 180px;
+    width: 130px;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 575px;
+    border-radius: 10px;
+}
+/* what on your mind */
+.whatbox{
+    height: 120px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 380px;
+    border-radius: 10px;
+}
+.main{
+    height: 30px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    top: 310px;
+    left: 450px;
+    background-color: rgb(233, 233, 233);
+}
+.profilephoto{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 390px;
+}
+.livvid{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 370px;
+    left: 410px;
+}
+.phovid{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 370px;
+    left: 550px;
+}
+.feeact{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 370px;
+    left: 700px;
+}
+.tlive{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    display: flex;
+    position: absolute;
+    top: 360px;
+    left: 450px;
+}
+.tphoto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    display: flex;
+    position: absolute;
+    top: 360px;
+    left: 590px;
+}
+.tfeeling{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    display: flex;
+    position: absolute;
+    top: 360px;
+    left: 740px;
+}
+.create{
+    height: 60px;
+    width: 500px;
+    display: flex;
+    position: absolute;
+    top: 440px;
+    right: 470px;
+    background-color: white;
+    border-radius: 10px;
+}
+.room{
+    height: 35px;
+    width: 150px;
+    border: 1.5px solid purple;
+    display: flex;
+    position: absolute;
+    top: 450px;
+    left: 390px;
+    border-radius: 20px;
+}
+.livevideo{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 455px;
+    left: 400px;
+}
+.tlivevid{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: rgb(86, 15, 253);
+    display: flex;
+    position: absolute;
+    top: 445px;
+    left: 435px;
+}
+.pic{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    position: absolute;
+    top: 445px;
+    left: 560px; 
+}
+.pictwo{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    position: absolute;
+    top: 445px;
+    left: 620px; 
+}
+.picthree{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    position: absolute;
+    top: 445px;
+    left: 680px; 
+}
+.picfour{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    position: absolute;
+    top: 445px;
+    left: 740px; 
+}
+.picfive{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    position: absolute;
+    top: 445px;
+    left: 800px; 
+}
+.post{
+    height: 80%;
+    width: 38%;
+    display: flex;
+    position: absolute;
+    top: 530px;
+    left: 370px;
+    background-color: white;
+    border-radius: 10px;
+}
+.profilename{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    display: flex;
+    position: absolute;
+    top: 530px;
+    left: 430px;
+}
+.pictureone{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    position: absolute;
+    top: 530px;
+    left: 370px;
+}
+.postimg{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    position: absolute;
+    top: 590px;
+    left: 380px;
+}
+.likes{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    left: 400px;
+}
+.comments{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    left: 600px;
+}
+.shares{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    left: 800px;
+}
